@@ -1,0 +1,437 @@
+body {
+  background: linear-gradient(#25a9e0, #252261);
+  color: #FFFFFF;
+  font-family: ."Abel", "Calibri", sans-serif;
+  font-size: xx-large;
+}
+
+.header {
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  font-family: "Abel";
+}
+
+#time {
+  font-family: "Abel";
+  font-weight: 100;
+}
+
+#topHeader {
+  display: flex;
+}
+
+#cDate {
+  font-weight: 600;
+  font-size: 20;
+}
+
+#search {
+  margin-top: 1%;
+  margin-left: 38%;
+  float: right;
+}
+
+#zipbox {
+  border-radius: 20px;
+  border-style: none;
+  margin-bottom: 5px;
+  height: 30px;
+  width: 170px;
+}
+
+#mobZip {
+  display: none;
+  border-radius: 20px;
+  border-style: none;
+  margin-top: 10px;
+  height: 30px;
+  width: 170px;
+}
+
+#zipButton {
+  border-radius: 20px;
+  background-color: #00baf1;
+  border-style: none;
+  color: #ffffff;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#searchButton {
+  float: right;
+}
+
+#mobTime {
+  display: none;
+  font-family: "Abel";
+  margin-left: 20%;
+}
+
+#mobDate {
+  display: none;
+}
+
+#plus {
+  display: none;
+  float: right;
+  float: top;
+}
+
+#plusButton {
+  background: none;
+  border: none;
+}
+
+.shoulder {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  display: flex;
+  font-family: "Abel";
+}
+
+#image {
+  margin-top: 15%;
+}
+
+#shoulderText {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#mobPlace {
+  display: none;
+  font-family: "Abel";
+  font-size: 25;
+  font-weight: 600;
+}
+
+#place {
+  font-weight: 100;
+}
+
+#tempFaren {
+  display: flex;
+  flex-direction: row;
+}
+
+#temp {
+  font-size: 100;
+  margin-left: 17%;
+}
+
+#rightShoulder {
+  margin-top: 15%;
+}
+
+#drop {
+  display: flex;
+}
+
+#dropImage {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+#dropNum {
+  font-family: "Abel";
+  font-weight: 100;
+}
+
+#wind {
+  display: flex;
+}
+
+#windImage {
+  margin-right: 10px;
+}
+
+#windNum {
+  font-family: "Abel";
+  font-weight: 100;
+}
+
+.kneer {
+  font-family: "Abel";
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 350px;
+  margin-left: 3%;
+  margin-right: 3%;
+  overflow: hidden;
+  width: 1050px;
+}
+
+#showOne {
+  display: flex;
+  width: 10px;
+}
+
+#zerothDay {
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #4481ab;
+  float: left;
+}
+
+#image0 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+#firstDay {
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #4481ab;
+}
+
+#image1 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+#secondDay {
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #4481ab;
+}
+
+#image2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+#thirdDay {
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #4481ab;
+}
+
+#image3 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+#fourthDay {
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #4481ab;
+}
+
+#image4 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+#fifthDay {
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #4481ab;
+}
+
+#image5 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+#sixthDay {
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #4481ab;
+}
+
+#image6 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+#seventhDay {
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #4481ab;
+}
+
+#image7 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+#eighthDay {
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #4481ab;
+}
+
+#image8 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+#ninthDay {
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: #4481ab;
+}
+
+#image9 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+.toer {
+  font-family: "Abel";
+  margin-top: 3%;
+}
+
+#arrows {
+  display: flex;
+}
+
+#leftArrow {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 20%;
+}
+
+#lBut {
+  background: none;
+  border: none;
+}
+
+#rightArrow {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+#rightText {
+  float: right;
+}
+
+#rightButton {
+  float: right;
+}
+
+#rBut {
+  background: none;
+  border: none;
+}
+
+#yahoo {
+  float: left;
+}
+
+@media (max-width: 1000px) {
+  #zipbox {
+    display: none;
+    float: left;
+    margin: 0;
+  }
+  #zipButton {
+    display: none;
+  }
+  #time {
+    display: none;
+    margin: 0;
+    float: left;
+  }
+  #cDate {
+    display: none;
+  }
+  #mobZip {
+    display: inline;
+  }
+  #mobTime {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: -5px;
+    font-size: 60;
+  }
+  #mobDate {
+    display: none;
+    margin: 0;
+    float: left;
+  }
+  #mobPlace {
+    display: inline;
+  }
+  #place {
+    display: none;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 0px;
+    float: left;
+    border: solid;
+    position: absolute;
+  }
+  #plus {
+    display: inline;
+  }
+  #image {
+    display: none;
+    margin: 0;
+    float: left;
+  }
+  #tempFaren {
+    display: none;
+    margin: 0;
+    float: left;
+  }
+  #desc {
+    display: none;
+    margin: 0;
+    float: left;
+  }
+  #rightShoulder {
+    display: none;
+    margin: 0;
+    float: left;
+  }
+  #zerothDay {
+    display: inline;
+    margin-left: 15%;
+  }
+  #showOne {
+    display: none;
+    margin: 0;
+    float: left;
+  }
+  #arrows {
+    display: none;
+    margin: 0;
+    float: left;
+  }
+  .kneer {
+    margin: 0;
+  }
+  .toer {
+    margin: 0;
+  }
+}

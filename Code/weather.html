@@ -1,0 +1,375 @@
+<!--
+Beginning of Weather App
+
+Also requires files:
+	weather.css
+	weather.js
+-->
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Weather App</title>
+	<!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="weather.css"></link>
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="plus">
+		<button id="plusButton" onclick="gotMobPlace()"><img src='../WeatherApp/plus.png'></button>
+	</div>
+
+	<input id="mobZip" type="text" placeholder="enter zip">
+
+	<div class="header">
+
+		<div id="topHeader">
+			<div id="time">
+				time
+			</div>
+
+			<div id="search">
+				<div id="searchBox">
+					<input id="zipbox" type="text" placeholder="enter zip">
+				</div>
+
+				<div id="searchButton">
+					<button id="zipButton" onclick="gotNewPlace()">submit</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="cDate">
+			cDate
+		</div>
+
+	</div>
+
+	<div id="mobTaD">
+
+		<div id="mobTime">
+			mobTime
+		</div>
+
+		<div id="mobDate">
+			mobDate
+		</div>
+
+	</div>
+
+	<div id="mobPlace">
+		mobPlace
+	</div>
+
+	<div class="shoulder">
+
+		<div id="image">
+			image
+		</div>
+
+		<div id="shoulderText">
+			<div id="place">
+				place
+			</div>
+			<div id="tempFaren">
+
+				<div id="temp">
+					temp
+				</div>
+
+				<div id="faren">
+					faren
+				</div>
+			</div>
+
+			<div id="desc">
+				desc
+			</div>
+		</div>
+
+		<div id="rightShoulder">
+			<div id="drop">
+
+				<div id="dropImage">
+					<img src='../WeatherApp/drop.png'>
+				</div>
+
+				<div id="dropNum">
+					humidity
+				</div>
+
+			</div>
+
+			<div id="wind">
+
+				<div id="windImage">
+					<img src='../WeatherApp/wind.png'>
+				</div>
+
+				<div id="windNum">
+					wind
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="kneer">
+		<div id="zerothDay">
+			<div id="day0">
+				day
+			</div>
+
+			<div id="image0">
+				image
+			</div>
+
+			<div id="desc0">
+				desc
+			</div>
+
+			<div id="temp0">
+				temp
+			</div>
+
+		</div>
+
+		<div id="showOne">
+
+			<div id="firstDay">
+
+				<div id="day1">
+					day
+				</div>
+
+				<div id="image1">
+					image
+				</div>
+
+				<div id="desc1">
+					desc
+				</div>
+
+				<div id="temp1">
+					temp
+				</div>
+
+			</div>
+
+			<div id="secondDay">
+
+				<div id="day2">
+					day
+				</div>
+
+				<div id="image2">
+					image
+				</div>
+
+				<div id="desc2">
+					desc
+				</div>
+
+				<div id="temp2">
+					temp
+				</div>
+
+			</div>
+
+			<div id="thirdDay">
+
+				<div id="day3">
+					day
+				</div>
+
+				<div id="image3">
+					image
+				</div>
+
+				<div id="desc3">
+					desc
+				</div>
+
+				<div id="temp3">
+					temp
+				</div>
+
+			</div>
+
+			<div id="fourthDay">
+
+				<div id="day4">
+					day
+				</div>
+
+				<div id="image4">
+					image
+				</div>
+
+				<div id="desc4">
+					desc
+				</div>
+
+				<div id="temp4">
+					temp
+				</div>
+
+			</div>
+
+			<div id="fifthDay">
+
+				<div id="day5">
+					day
+				</div>
+
+				<div id="image5">
+					image
+				</div>
+
+				<div id="desc5">
+					desc
+				</div>
+
+				<div id="temp5">
+					temp
+				</div>
+
+			</div>
+
+			<div id="sixthDay">
+
+				<div id="day6">
+					day
+				</div>
+
+				<div id="image6">
+					image
+				</div>
+
+				<div id="desc6">
+					desc
+				</div>
+
+				<div id="temp6">
+					temp
+				</div>
+
+			</div>
+
+			<div id="seventhDay">
+
+				<div id="day7">
+					day
+				</div>
+
+				<div id="image7">
+					image
+				</div>
+
+				<div id="desc7">
+					desc
+				</div>
+
+				<div id="temp7">
+					temp
+				</div>
+
+			</div>
+
+			<div id="eighthDay">
+
+				<div id="day8">
+					day
+				</div>
+
+				<div id="image8">
+					image
+				</div>
+
+				<div id="desc8">
+					desc
+				</div>
+
+				<div id="temp8">
+					temp
+				</div>
+
+			</div>
+
+			<div id="ninthDay">
+
+				<div id="day9">
+					day
+				</div>
+
+				<div id="image9">
+					image
+				</div>
+
+				<div id="desc9">
+					desc
+				</div>
+
+				<div id="temp9">
+					temp
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="toer">
+		<div id="arrows">
+			<div id="leftArrow">
+
+				<div id="leftButton">
+					<button id="lBut" onclick="leftButton()"><img src = '../WeatherApp/arrow-left.png'></button>
+				</div>
+
+				<div id="leftText">
+					prev forecasts
+				</div>
+
+			</div>
+			<div id="rightArrow">
+
+				<div id="rightText">
+					more forecasts
+				</div>
+
+				<div id="rightButton">
+					<button id="rBut" onclick="rightButton()"><img src = '../WeatherApp/arrow-right.png'></button>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="yahoo">
+			<br>
+			<a href="https://www.yahoo.com/?ilc=401" target="_blank"> <img src="https://poweredby.yahoo.com/purple.png" width="134" height="29" /> </a>
+			</br>
+		</div>
+	</div>
+
+
+	<div id="weatherBox">
+		<p id="forecast"></p>
+	</div>
+
+	<!-- contains callback function that is called when weather gets here from server -->
+	<script src="weather.js"></script>
+
+	<!-- asks server to send weather -->
+	<script src="https://query.yahooapis.com/v1/public/yql?q=select * from weather.forecast where woeid in (select woeid from geo.places(1) where text='davis, ca')&format=json&callback=callbackFunction"></script>
+
+	<div id="grad"></div>
+
+
+</body>
+
+</html>
