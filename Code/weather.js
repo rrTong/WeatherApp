@@ -151,11 +151,56 @@ function callbackFunction(data) {
   for (i = 12; i < 16; i++) {
     yearHold = yearHold + dataHold[i];
   }
-
-  cDate.innerHTML = monthHold + "il " + dayHold + ", " + yearHold;
+/*
+  if(monthHold = "Jan")
+  {
+    cDate.innerHTML = monthHold + "uary " + dayHold + ", " + yearHold;
+  }
+  else if(monthHold = "Feb")
+  {
+    cDate.innerHTML = monthHold + "ruary " + dayHold + ", " + yearHold;    
+  }
+  else if(monthHold = "Mar")
+  {
+    cDate.innerHTML = monthHold + "ch " + dayHold + ", " + yearHold;        
+  }
+  else if(monthHold = "Apr")
+  {
+    cDate.innerHTML = monthHold + "il " + dayHold + ", " + yearHold;      
+  }
+  else if(monthHold = "May")
+  {
+    cDate.innerHTML = monthHold + " " + dayHold + ", " + yearHold;        
+  }
+  else if(monthHold = "Jun")
+  {
+    cDate.innerHTML = monthHold + "e " + dayHold + ", " + yearHold;    
+  }
+  else if(monthHold = "Jul")
+  {
+    cDate.innerHTML = monthHold + "y " + dayHold + ", " + yearHold;
+  }
+  else if(monthHold = "Aug")
+  {
+    cDate.innerHTML = monthHold + "ust " + dayHold + ", " + yearHold;
+  }
+  else if(monthHold = "Sep")
+  {
+    cDate.innerHTML = monthHold + "tember " + dayHold + ", " + yearHold;
+  }
+  else if(monthHold = "Oct")
+  {
+    cDate.innerHTML = monthHold + "ober " + dayHold + ", " + yearHold;
+  }
+  else
+  {
+    cDate.innerHTML = monthHold + "ember " + dayHold + ", " + yearHold;
+  }
+*/
+  cDate.innerHTML = monthHold + " " + dayHold + ", " + yearHold;
 
   mobTime.innerHTML = "Today " + timeHold;
-  mobDate.innerHTML = monthHold + "il " + dayHold + ", " + yearHold;
+  mobDate.innerHTML = monthHold + " " + dayHold + ", " + yearHold;
 
 
   //shoulder
