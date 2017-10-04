@@ -1,2 +1,2 @@
 # WeatherApp
-WeatherApp created for a Web Design class
+A weather app that provides a 10-day forecast using Yahoo Weather API.
